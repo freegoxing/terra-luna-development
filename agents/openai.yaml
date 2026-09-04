@@ -1,0 +1,4 @@
+interface:
+  display_name: "Terra–Luna Development"
+  short_description: "Terra plans; Luna executes bounded work"
+  default_prompt: "Use $terra-luna-development to handle this development task."
