@@ -52,3 +52,13 @@ the result is incomplete.
 Do not commit, push, rebase, reset, amend, tag, delete branches, or perform a
 destructive data/configuration operation unless the user explicitly authorizes
 it.
+
+When a commit is explicitly authorized, write its subject in this form:
+
+```text
+<type>[optional scope]: <short description>
+```
+
+Use a concise imperative description. Include a scope only when it clarifies
+the affected area; do not fabricate one. Examples: `feat(auth): add magic-link
+callback`, `fix: handle empty export path`.
